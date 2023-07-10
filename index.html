@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Web Developer</title>
+
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/php-logo.png" type="image/x-icon">
+
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!--
+  - #MAIN
+-->
+
+<main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+        <div class="sidebar-info">
+
+            <figure class="avatar-box">
+                <img src="./assets/images/avatar.png" alt="Richard hanrick" width="80">
+            </figure>
+
+            <div class="info-content">
+                <h1 class="name" title="Richard hanrick">Abdullayev Bahrom</h1>
+
+                <p class="title">PHP Web developer</p>
+            </div>
+
+            <button class="info_more-btn" data-sidebar-btn>
+                <span>Show Contacts</span>
+
+                <ion-icon name="chevron-down"></ion-icon>
+            </button>
+
+        </div>
+
+        <div class="sidebar-info_more">
+
+            <div class="separator"></div>
+
+            <ul class="contacts-list">
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Email</p>
+
+                        <a href="mailto:abdullayevbahromjon34@gmail.com" class="contact-link">abdullayevbahromjon34@gmail.com</a>
+                    </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Phone</p>
+
+                        <a href="tel:+998900157113" class="contact-link">+998 (90) 015-71-13</a>
+                    </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="calendar-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Birthday</p>
+
+                        <time datetime="1994-04-13">April 13, 1994</time>
+                    </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Location</p>
+
+                        <address>Bekabad District, Tashkent Region, Uzbekistan</address>
+                    </div>
+
+                </li>
+
+            </ul>
+
+            <div class="separator"></div>
+
+            <ul class="social-list">
+
+                <li class="social-item">
+                    <a href="https://t.me/BahromjonBahodirovich" class="social-link" target="_blank">
+                        <ion-icon name="paper-plane-outline"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="social-item">
+                    <a href="https://www.linkedin.com/in/bahrom-abdullayev-29a979245" class="social-link"
+                       target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="social-item">
+                    <a href="https://gitlab.com/abdullayevbahrom" class="social-link" target="_blank">
+                        <ion-icon name="logo-gitlab"></ion-icon>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+        <!--
+          - #NAVBAR
+        -->
+
+        <nav class="navbar">
+
+            <ul class="navbar-list">
+
+                <li class="navbar-item">
+                    <button class="navbar-link  active" data-nav-link>About</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Resume</button>
+                </li>
+
+<!--                <li class="navbar-item">-->
+<!--                    <button class="navbar-link" data-nav-link>Portfolio</button>-->
+<!--                </li>-->
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Blog</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Contact</button>
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <!--
+          - #ABOUT
+        -->
+
+        <article class="about  active" data-page="about">
+
+            <header>
+                <h2 class="h2 article-title">About me</h2>
+            </header>
+
+            <section class="about-text">
+                <p>
+                    Hello, I am a PHP Web Developer. I develop websites and web applications that are creative and can
+                    provide a suitable solution for your business.
+                    I like to provide simple, beautiful and intuitive solutions to complex problems.
+                </p>
+
+                <p>
+                    My job is to make your website functional and user-friendly, but at the same time reliable. My goal
+                    is to convey your message and personality in the most creative way possible.
+                </p>
+            </section>
+
+
+            <!--
+              - service
+            -->
+
+            <section class="service">
+
+                <h3 class="h3 service-title">What i'm doing</h3>
+
+                <ul class="service-list">
+
+                    <li class="service-item">
+
+                        <div class="service-icon-box">
+                            <img src="./assets/images/logo-mvc.png
+                " alt="design icon" width="40">
+                        </div>
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">MVC Based Web Application</h4>
+
+                            <p class="service-item-text">
+                                The most modern and high-quality design made at a professional level.
+                            </p>
+                        </div>
+
+                    </li>
+
+                    <li class="service-item">
+
+                        <div class="service-icon-box">
+                            <img src="./assets/images/logo-web-dev.jpg" alt="Web development icon" width="40">
+                        </div>
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Web development</h4>
+
+                            <p class="service-item-text">
+                                High-quality development of sites at the professional level.
+                            </p>
+                        </div>
+
+                    </li>
+
+                    <li class="service-item">
+
+                        <div class="service-icon-box">
+                            <img src="./assets/images/logo-responsive.jpg" alt="mobile app icon" width="40">
+                        </div>
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Responsive Web Apps</h4>
+
+                            <p class="service-item-text">
+                                Responsive web application development
+                            </p>
+                        </div>
+
+                    </li>
+
+                    <li class="service-item">
+
+                        <div class="service-icon-box">
+                            <img src="./assets/images/logo-restfull-api.png" alt="camera icon" width="40">
+                        </div>
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">RESTfull API</h4>
+
+                            <p class="service-item-text">
+                                RESTfull API development
+                            </p>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </section>
+
+            <div class="modal-container" data-modal-container>
+                <div class="overlay" data-overlay></div>
+                <section class="testimonials-modal">
+                    <button class="modal-close-btn" data-modal-close-btn>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+                </section>
+            </div>
+        </article>
+
+
+        <!--
+          - #RESUME
+        -->
+
+        <article class="resume" data-page="resume">
+
+            <header>
+                <h2 class="h2 article-title">Resume</h2>
+            </header>
+
+            <section class="timeline">
+
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3">Education</h3>
+                </div>
+
+                <ol class="timeline-list">
+
+                    <li class="timeline-item">
+
+                        <h4 class="h4 timeline-item-title">Course of <a href="https://kadirov.dev" target="_blank">Kadirov.dev</a>
+                        </h4>
+
+                        <span>February 2022 — August 2022</span>
+
+                        <p class="timeline-text">
+                            During this course, I learned the basics of web programming, working with databases and
+                            developing web applications.
+                        </p>
+
+                    </li>
+
+                    <li class="timeline-item">
+
+                        <h4 class="h4 timeline-item-title">I was engaged in technical engineering in various
+                            workplaces</a>
+                        </h4>
+
+                        <span>2012 — 2022</span>
+
+                        <p class="timeline-text">
+                            I did things according to my interests.
+                        </p>
+
+                    </li>
+
+                    <li class="timeline-item">
+
+                        <h4 class="h4 timeline-item-title">Tashkent Telecommunication Lyceum</a>
+                        </h4>
+
+                        <span>2009 — 2012</span>
+
+                        <p class="timeline-text">
+                            During my studies, I learned information technologies and their types and the basics of
+                            their effective use.
+                        </p>
+
+                    </li>
+                </ol>
+
+            </section>
+
+            <section class="timeline">
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <h3 class="h3">Experience</h3>
+                </div>
+                <ol class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">PHP Web Developer</h4>
+                        <span>May 2023 — June 2023</span>
+                        <p class="timeline-text">
+                            I worked as a PHP backend developer at Zerosoft, which
+                            develops CRM systems for private medical clinics. During my work, I worked on the Call
+                            Center project of the clinics and their integration into the CRM system, and on the
+                            evaluation reports of the operators.
+                            <a href="https://medplus.uz" target="_blank">medplus.uz</a>
+                        </p>
+                    </li>
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Intern Web Developer</h4>
+                        <span>April 2023</span>
+                        <p class="timeline-text">
+                            I did an internship at the myteacher.uz
+                            project and worked on a Telegram bot in the PHP
+                            programming language that reminds students to prepare lessons at a time of their choice.
+                            <a href="https://myteacher.uz" target="_blank">myteacher.uz</a>
+                        </p>
+                    </li>
+                </ol>
+            </section>
+
+            <section class="skill">
+
+                <h3 class="h3 skills-title">My skills</h3>
+
+                <ul class="skills-list content-card">
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5">PHP/Laravel</h5>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 70%;"></div>
+                        </div>
+
+                    </li>
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5">JavaScript/Vue 3</h5>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 40%;"></div>
+                        </div>
+
+                    </li>
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5">SQL/MySQL</h5>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 60%;"></div>
+                        </div>
+
+                    </li>
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5">Git/GitLab/Linux CLI</h5>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 60%;"></div>
+                        </div>
+
+                    </li>
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5">Docker</h5>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 50%;"></div>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+
+        <!--
+          - #PORTFOLIO
+        -->
+
+        <article class="portfolio" data-page="portfolio">
+
+            <header>
+                <h2 class="h2 article-title">Portfolio</h2>
+            </header>
+
+            <section class="projects">
+
+                <ul class="filter-list">
+
+                    <li class="filter-item">
+                        <button class="active" data-filter-btn>All</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>MVC</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>API</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>FullStack</button>
+                    </li>
+
+                </ul>
+
+                <div class="filter-select-box">
+
+                    <button class="filter-select" data-select>
+
+                        <div class="select-value" data-selecct-value>Select category</div>
+
+                        <div class="select-icon">
+                            <ion-icon name="chevron-down"></ion-icon>
+                        </div>
+
+                    </button>
+
+                    <ul class="select-list">
+
+                        <li class="select-item">
+                            <button data-select-item>All</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>MVC</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>API</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>FullStack</button>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <ul class="project-list">
+
+                    <li class="project-item  active" data-filter-item data-category="mvc">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Finance</h3>
+
+                            <p class="project-category">MVC Based Web Application</p>
+
+                        </a>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="mvc">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Orizon</h3>
+
+                            <p class="project-category">MVC Based Web Application</p>
+
+                        </a>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="api">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Fundo</h3>
+
+                            <p class="project-category">RESTfull API</p>
+
+                        </a>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="fullstack">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Brawlhalla</h3>
+
+                            <p class="project-category">FullStack Web Application</p>
+
+                        </a>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="api">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">DSM.</h3>
+
+                            <p class="project-category">RESTfull API</p>
+
+                        </a>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="api">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">MetaSpark</h3>
+
+                            <p class="project-category">RESTfull API</p>
+
+                        </a>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="mvc">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Summary</h3>
+
+                            <p class="project-category">MVC Based Web Application</p>
+
+                        </a>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="fullstack">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Task Manager</h3>
+
+                            <p class="project-category">FullStack Web Application</p>
+
+                        </a>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="mvc">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Arrival</h3>
+
+                            <p class="project-category">MVC Based Web Application</p>
+
+                        </a>
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+
+        <!--
+          - #BLOG
+        -->
+
+        <article class="blog" data-page="blog">
+
+            <header>
+                <h2 class="h2 article-title">Blog</h2>
+            </header>
+
+            <section class="blog-posts">
+
+                <ul class="blog-posts-list">
+
+                    <li class="blog-post-item">
+                        <a href="https://myblog.uz/2019/11/30/menimcha-bu-eng-zor-server-ijarasi/" target="_blank">
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/server.png" alt="Server" loading="lazy">
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Server</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2023-02-23">Fab 23, 2022</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Eng zo'r server ijarasi</h3>
+
+                                <p class="blog-text">
+                                    Hostinglar allaqachon urfdan chiqdi. O’zingiz server sotib olib uni ma’lumot markaz
+                                    (data center) larida joyashtirish esa juda qimmatga tushishi mumkin.
+                                </p>
+
+                            </div>
+
+                        </a>
+                    </li>
+
+                    <li class="blog-post-item">
+                        <a href="https://myblog.uz/2020/11/27/php-8-0-chiqarildi/" target="_blank">
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/php8.jpg" alt="php8" loading="lazy">
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Programming</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">PHP 8.0 chiqarildi!</h3>
+
+                                <p class="blog-text">
+                                    Ho’sh, qanaqa o’zgarishlar bor?
+                                </p>
+
+                            </div>
+
+                        </a>
+                    </li>
+
+                    <li class="blog-post-item">
+                        <a href="https://myblog.uz/2021/07/20/internet-nima-u-qanday-ishlaydi/" target="_blank">
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/internet.jpeg" alt="internet" loading="lazy">
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Internet</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Internet qanday ishlaydi</h3>
+
+                                <p class="blog-text">
+                                    Internet bu veb asosdir. Uning asosida, bir-biriga bog’langan kompyuterlar tarmog’i
+                                    yotadi.
+                                </p>
+
+                            </div>
+
+                        </a>
+                    </li>
+
+                    <li class="blog-post-item">
+                        <a href="https://myblog.uz/2021/12/06/10-linux-terminali-va-bash-veb-dasturlash-kursi/"
+                           target="_blank">
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/linux.jpeg" alt="linux" loading="lazy">
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Linux</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Linux tarixi va bash</h3>
+
+                                <p class="blog-text">
+                                    Terminal OT (Operatsion Tizim) da o’ranatilgan dasturlarga murojaat qilish uchun
+                                    maxsus dastur.
+                                </p>
+
+                            </div>
+
+                        </a>
+                    </li>
+
+                    <li class="blog-post-item">
+                        <a href="https://myblog.uz/2020/08/19/dasturchi-bolish-uchun-qanaqa-kompyuter-kerak-boladi/"
+                           target="_blank">
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/kompyuter.jpg" alt="computer" loading="lazy">
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Computer</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Dasturlash uchun qanday kompyuter tanlash kerak?</h3>
+
+                                <p class="blog-text">
+                                    Birdaniga kompyuter olishga shoshilmang, balkim dasturlash siz uchun emasdir.
+                                </p>
+
+                            </div>
+
+                        </a>
+                    </li>
+
+                    <li class="blog-post-item">
+                        <a href="https://myblog.uz/2021/07/17/haqiqiy-it-bank/" target="_blank">
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/tinkof.png" alt="tinkoff" loading="lazy">
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Bank</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Haqiqiy IT Bank</h3>
+
+                                <p class="blog-text">
+                                    Tinkoff – Rossiyaning eng zamonaviy banki hisoblanadi.
+                                </p>
+
+                            </div>
+
+                        </a>
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+
+        <!--
+          - #CONTACT
+        -->
+
+        <article class="contact" data-page="contact">
+
+            <header>
+                <h2 class="h2 article-title">Contact</h2>
+            </header>
+
+            <section class="mapbox" data-mapbox>
+                <figure>
+                    <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11962.278328950097!2d69.2686298092889!3d40.22032149546967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b19749e6e6ee79%3A0x44ff9d1fb3ad5530!2sBek%20Hotel!5e0!3m2!1sen!2s!4v1688981949924!5m2!1sen!2s"
+                            width="400" height="300" loading="lazy"></iframe>
+                </figure>
+            </section>
+
+            <section class="contact-form">
+
+                <h3 class="h3 form-title">Contact Form</h3>
+
+                <form action="#" class="form" data-form>
+
+                    <div class="input-wrapper">
+                        <input type="text" name="fullname" class="form-input" placeholder="Full name" required
+                               data-form-input>
+
+                        <input type="email" name="email" class="form-input" placeholder="Email address" required
+                               data-form-input>
+                    </div>
+
+                    <textarea name="message" class="form-input" placeholder="Your Message" required
+                              data-form-input></textarea>
+
+                    <button class="form-btn" type="submit" disabled data-form-btn>
+                        <ion-icon name="paper-plane"></ion-icon>
+                        <span>Send Message</span>
+                    </button>
+
+                </form>
+
+            </section>
+
+        </article>
+
+    </div>
+
+</main>
+
+
+<!--
+  - custom js link
+-->
+<script src="./assets/js/script.js"></script>
+
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
